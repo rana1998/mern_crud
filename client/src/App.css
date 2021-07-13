@@ -1,0 +1,33 @@
+.App
+{
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,button
+{
+  width:200px;
+  height:30px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.food
+{
+	width:20%;
+	height:20%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	border: 2px  solid black;
+	margin: 2%;
+}
+
+.foodDiv
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
